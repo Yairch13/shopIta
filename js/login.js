@@ -22,9 +22,9 @@ console.log('hola')
     const passwordTxt = password.value;
 
     if (usuarioTxt === credenciales.usuario && passwordTxt === credenciales.password){
-        window.location="../shop/index.html";
+        window.location="../shopita/index_admin.html";
     }else if(usuarioTxt === user.usuario && passwordTxt === user.password){
-        window.location="https://web.whatsapp.com/";
+        window.location="../shopita/index.html";
     }
 
 

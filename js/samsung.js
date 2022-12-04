@@ -1,17 +1,12 @@
-console.log("correct");
+document.querySelector('#lap').addEventListener('click', cel);
 
-document.querySelector('#btnExtraer').addEventListener('click', traerDatos);
-
-
-function traerDatos() {
-    console.log("correct");
+function cel(){
 
     const xhttp = new XMLHttpRequest();
 
     xhttp.open('GET', 'productos.json', true);
 
     xhttp.send();
-
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             console.log(this.responseText);
@@ -24,10 +19,10 @@ function traerDatos() {
 
             for (let item of datos) {
                 //console.log(item.precio);
-             
-                res.innerHTML += "<tr><td>"+item.id+"</td><td>"+item.nombre+"</td><td>"+item.cantidad+"</td><td>"+item.descripción+"</td><td>"+item.precio+"</td><td><img src='"+item.imagen+"'></img></td></tr>"
+             if(item.id==8){ res.innerHTML += "Id:"+item.id+"<br><br>Nombre:"+item.nombre+"<br><br>Cantidad:"+item.cantidad+"<br><br>Descripcion:"+item.descripción+"<br><br>Precio:"+item.precio+"<br>"
                 
-                
+            }
+               
                 
             }
         }
