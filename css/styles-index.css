@@ -48,3 +48,32 @@
 .card3{
     background-color: rgba(33, 162, 221, 0.664);
 }
+
+h5 a{
+    color: white;
+    
+}
+
+.redondo{
+    border-radius: 25px;
+    padding-left: 25px;
+}
+
+.espaciado{
+    padding-left: 25px;
+}
+.nombre{
+    text-align:right;
+    color: white;
+}
+
+.ventimg{
+    width: 200px;
+    height: auto;
+    padding: 30px;
+    margin-top: auto;
+}
+
+.details{
+    text-align: center;
+}
