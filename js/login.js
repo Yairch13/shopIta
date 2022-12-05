@@ -20,25 +20,15 @@ formulario.addEventListener('submit', (e) => {
 console.log('hola') 
     const usuarioTxt = usuario.value;
     const passwordTxt = password.value;
-    const flag = false;
 
     if (usuarioTxt === credenciales.usuario && passwordTxt === credenciales.password){
-        window.location="../index_admin.html";
-        flag = true;
+        window.location="../shopita/index_admin.html";
     }else if(usuarioTxt === user.usuario && passwordTxt === user.password){
-        window.location="../index_user.html";
-        flag = true;
+        window.location="../shopita/index.html";
     }
 
 
-    if(flag==false)
-    {
-        return window.alert('Usuario no existente')
-    }else if(flag ==true)
-    {
-        return window.alert('Welcome')
-    }
-    
+    return window.alert('Usuario no existente')
 
 
 });
