@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <button id="btnExtraer" type="button" class="btn btn-success" data-toggle="modal">Extraer</button>
-                    <a href="Insertar.html"><button id="btnExtraer" type="button" class="btn btn-success" data-toggle="modal">Insertar nuevo</button></a>
+                    
                 </div>
             </div>
         </div>
@@ -47,12 +47,15 @@
                                     <th>Descripción</th>
                                     <th>Precio</th>
                                     <th>Imagen</th>
-                                    <th>Acciones</th>
+                                  
+                                    <th> <button id="eliminar" type="button" class="btn btn-success" data-toggle="modal">Eliminar</button></th>
                                 </tr>
                             </thead>
                             <tbody id="res">
 
+                              
                             </tbody>
+                            
                         </table>
                     </div>
                 </div>
@@ -95,6 +98,7 @@
         </div>
     </div>
     <script src="js/productos.js"></script>
+    <script src="js/busqueda.js"></script>
     <script src="Productos.json"></script>
 
 </body>

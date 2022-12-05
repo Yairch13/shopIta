@@ -14,14 +14,12 @@
 	<header  class="p-3 d-flex flex-column flex-md-row justify-content-between align-items-center border-bottom bg-dark">
 		<h5  class="mt-1 text-white logo">ShopITA</h5>
 		<nav>
-				<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" >
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-					<input type="image" src="https://www.sandbox.paypal.com/es_XC/i/btn/btn_viewcart_SM.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
-					
-					</form>
-					
-					
+			<a id="icon" href="checkout.html" class="text-muted">
+				<svg xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor" class="bi bi-cart-plus-fill "
+					viewBox="0 0 16 16">
+					<path
+						d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
+				</svg></a>
 			<a id="icon" href="login.html" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" height="20"
 					fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
 					<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -35,7 +33,7 @@
 	<div style="padding-top: 10px;" class="container">
 		<div class="nav-scroller py-1 mb-4">
 			<nav class="d-flex flex-wrap justify-content-between">
-				<a href="celulares.html" class="text-muted mx-2 my-1">Catálogo</a>
+				<a href="../shopIta/celulares.html" class="text-muted mx-2 my-1">Catálogo</a>
 				<a href="#" class="text-muted mx-2 my-1">Lo más vendido</a>
 				<a href="#" class="text-muted mx-2 my-1">Servicio al cliente</a>
 				<a href="#" class="text-muted mx-2 my-1">Promociones</a>
@@ -89,7 +87,7 @@
 						</ul>
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="btn-group">
-								<a href="celulares.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+								<a href="../shopIta/celulares.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
 							</div>
 						</div>
 					</div>
@@ -106,7 +104,7 @@
 						</ul>
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="btn-group">
-								<a href="accessorios.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+								<a href="../shopIta/accessorios.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
 							</div>
 						</div>
 					</div>
@@ -123,7 +121,7 @@
 						</ul>
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="btn-group">
-								<a href="tablet.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+								<a href="../shopIta/tablet.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
 							</div>
 						</div>
 					</div>
@@ -140,7 +138,7 @@
 						</ul>
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="btn-group">
-								<a href="accessorios.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+								<a href="../shopIta/accessorios.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
 							</div>
 						</div>
 					</div>
@@ -158,7 +156,7 @@
 						</ul>
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="btn-group">
-								<a href="laptop.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+								<button class="btn btn-sm btn-outline-secondary"><a href="../shopIta/laptop.html">Ir</a> </button>
 							</div>
 							<small class="text-muted">9 min</small>
 						</div>
@@ -166,22 +164,7 @@
 				</div>
 			</div>
 
-			<div class="col-12 col-sm-6 col-md-4">
-				<div class="card mb-4 ">
-					<img src="img/funkos.png" alt="" class="cardimg">
-					<div class="card-body">
-						<ul class="list-unstyled text-left">
-							<li><p class="card-text">Diversidad de juguetes funkos.</p>
-							<li><a href="#"><span class="text-success">Ver descuentos del 40%</span></a></li>
-						</ul>
-						<div class="d-flex justify-content-between align-items-center">
-							<div class="btn-group">
-								<a href="#"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 		</div>
 	</div>
 </div>
