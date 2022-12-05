@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPZ6NHQECY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZPZ6NHQECY');
-</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles-icons.css">
 	<link rel="stylesheet" href="css/styles-index.css">
-	<title>Landing ShopITA</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>ShopITA</title>
 </head>
 
 <body>
-
-	<header class="p-3 d-flex flex-column flex-md-row justify-content-between align-items-center border-bottom">
-		<a href="https://shoppita.000webhostapp.com/">
-			<h5 class="mt-1 title text-dark">ShopITA</h5>
-		</a>
+<!--Nav-->
+	<header  class="p-3 d-flex flex-column flex-md-row justify-content-between align-items-center border-bottom bg-dark">
+		<h5  class="mt-1 text-white logo">ShopITA</h5>
 		<nav>
-			<a href="https://shoppita.000webhostapp.com/" class="p-2 text-dark">Ir a la página</a>
+				<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" >
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+					<input type="image" src="https://www.sandbox.paypal.com/es_XC/i/btn/btn_viewcart_SM.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+					
+					</form>
+					
+					
+			<a id="icon" href="login.html" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" height="20"
+					fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+					<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+					<path fill-rule="evenodd"
+						d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+				</svg></a>
 		</nav>
 	</header>
+
+<!--Catalogo-->
+	<div style="padding-top: 10px;" class="container">
+		<div class="nav-scroller py-1 mb-4">
+			<nav class="d-flex flex-wrap justify-content-between">
+				<a href="celulares.html" class="text-muted mx-2 my-1">Catálogo</a>
+				<a href="#" class="text-muted mx-2 my-1">Lo más vendido</a>
+				<a href="#" class="text-muted mx-2 my-1">Servicio al cliente</a>
+				<a href="#" class="text-muted mx-2 my-1">Promociones</a>
+				<a href="#" class="text-muted mx-2 my-1">Moda</a>
+				<a href="#" class="text-muted mx-2 my-1">Lo más nuevo</a>
+			</nav>
+		</div>
+	</div>
+
 	<!--Carrusel-->
-	<div class="row slider bg-light carru-font">
+	<!--Carrusel-->
+	<div class=" slider bg-light carru-font carrusel">
 		<div class="col">
 			<div class="carousel slide" id="slider" data-ride="carousel">
 				<ol class="carousel-indicators">
@@ -57,144 +74,143 @@
 		</div>
 	</div>
 	</div>
-	<main class="container">
+</div>
 
-		<!--Información principal-->
-		<div class="row featurette superior">
-			<div class="col-md-7 order-md-2">
-				<h2 class="featurette-heading">Oh yeah, Tabién pensamos en nuestros clientes gamers. <span class="text-muted">Fortalece tu SetUp.</span></h2>
-				<p class="lead">Si quieres crecer en el mundo gamer, primero tienes que tener cosas de calidad para poder jugar de una mejor manera. Aquí tenemos todo lo que necesitas</p>
-			</div>
-			<div class="col-md-5 order-md-1">
-					<img src="img/laps.png" alt="Slide #1"
-						class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-						height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-						preserveAspectRatio="xMidYMid slice" focusable="false">
-			</div>
-		</div>
-		<div class="row featurette superior">
-			<div class="col-md-7 order-md-1">
-				<h2 class="featurette-heading">Oh yeah, ¿Te gusta escuchas buena música?<span class="text-muted">...</span></h2>
-				<p class="lead">Si te gusta escuchas diferentes tipos de música, en cualquier hora, cualquier momento, en donde sea. Aqui tenemos todo lo que necesitas.</p>
-			</div>
-			<div class="col-md-5 order-md-1">
-					<img src="img/Sony wh-1000xm5.avif" alt="Slide #1"
-						class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-						height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-						preserveAspectRatio="xMidYMid slice" focusable="false">
-			</div>
-		</div>
-
-		<!--Información con links-->
-		<div class="row my-5 d-flex justify-content-center superior">
-			<div class="col-8 text-center">
-				<h1 class="display-6">Tenemos todo lo que necesitas!!!</h1>
-				<p class="lead text-justify">En ShopITA pensamos en todos nuestros clientes, es por esa razón que aquí tenemos todo
-					lo que necesitas para el hogar, trabajo, mascotas, entre muchas otras cosas.</p>
-			</div>
-		</div>
-
+<div class="py-5 bg-light border-top">
+	<div class="container">
 		<div class="row">
-			<div class="col">
-				<div class="card-deck">
-					<!-- Card 1 -->
-					<div class="card mb-4">
-						<div class="card-header card1">
-							<h4 class="my-0 text-center">NUEVO!</h4>
-						</div>
-						<div class="card-body text-center">
-							<h1>Audifonos</h1>
-							<img src="img/audi.png" alt="Slide #1" class="d-block  img">
-							<ul class="list-unstyled text-left">
-								<li><span class="text-muted text-center">NUESTRA VARIEDAD!!</span></li>
-								<li>Sony</li>
-								<li>Skullcandy</li>
-								<li>Beats</li>
-								<li><span class="text-muted text-center">Entre muchos otros articulos</span></li>
-							</ul>
-							<a href="https://shoppita.000webhostapp.com/"><button
-									class="btn btn-outline-dark btn-lg btn-block">¡IR!</button></a>
+			<div class="col-12 col-sm-6 col-md-4">
+				<div class="card mb-4 ">
+					<img src="img/celulares.png"  alt="" class="cardimg">
+					<div class="card-body">
+						<ul class="list-unstyled text-left">
+							<li><p class="card-text">Diversidad de celulares.</p>
+							<li><a href="#"><span class="text-success">Ver descuentos del 5%</span></a></li>
+						</ul>
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<a href="celulares.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+							</div>
 						</div>
 					</div>
-					<!-- Card 1 -->
-					<div class="card mb-4">
-						<div class="card-header card2">
-							<h4 class="my-0 text-center">LO MÁS HOT!</h4>
-						</div>
-						<div class="card-body text-center">
-							<h1>Laptops</h1>
-							<img src="img/laps.png" alt="Slide #1" class="d-block  img">
-							<ul class="list-unstyled text-left">
-								<li><span class="text-muted text-center">NUESTRA VARIEDAD!!</span></li>
-								<li>MSI</li>
-								<li>HP</li>
-								<li>LENOVO</li>
-								<li><span class="text-muted text-center">Entre muchos otros articulos</span></li>
-							</ul>
-							<a href="https://shoppita.000webhostapp.com/"><button
-									class="btn btn-outline-dark btn-lg btn-block">¡IR!</button></a>
-						</div>
-					</div>
-					<!-- Card 1 -->
-					<div class="card mb-4">
-						<div class="card-header card3">
-							<h4 class="my-0 text-center">PRÓXIMAMENTE!</h4>
-						</div>
-						<div class="card-body text-center">
-							<h1>FUNKO POPS!!!</h1>
-							<img src="img/funklogo.png" alt="Slide #1" class="d-block  img">
-							<ul class="list-unstyled text-left">
-								<li><span class="text-muted text-center">NUESTRA VARIEDAD!!</span></li>
-								<li>MY Hero Academia</li>
-								<li>Harry Potter</li>
-								<li>Rick and Morty</li>
-								<li><span class="text-muted text-center">Entre muchos otros articulos</span></li>
-							</ul>
-							<a href="https://shoppita.000webhostapp.com/"><button
-									class="btn btn-outline-dark btn-lg btn-block">¡IR!</button></a>
-						</div>
-					</div>
+				</div>
+			</div>
 
+			<div class="col-12 col-sm-6 col-md-4">
+				<div class="card mb-4 ">
+					<img src="img/teclados.png" style="padding-top: 15px;"  alt="" class="cardimg">
+					<div class="card-body">
+						<ul class="list-unstyled text-left">
+							<li><p class="card-text">Diversidad de téclados.</p>
+							<li><a href="#"><span class="text-success">Ver descuentos del 10%</span></a></li>
+						</ul>
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<a href="accessorios.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-4">
+				<div class="card mb-4 ">
+					<img src="img/tablets.png" style="padding-top: 15px;"  alt="" class="cardimg">
+					<div class="card-body">
+						<ul class="list-unstyled text-left">
+							<li><p class="card-text">Diversidad de tabletas.</p>
+							<li><a href="#"><span class="text-success">Ver descuentos del 80%</span></a></li>
+						</ul>
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<a href="tablet.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-4">
+				<div class="card mb-4 ">
+					<img src="img/audifoonos.png" style="padding-top: 40px;" alt="" class="cardimg">
+					<div class="card-body">
+						<ul class="list-unstyled text-left">
+							<li><p class="card-text">Diversidad de audifonos.</p>
+							<li><a href="#"><span class="text-success">Ver descuentos del 40%</span></a></li>
+						</ul>
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<a href="accessorios.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-4">
+				<div class="card mb-4">
+					<img src="img/laptops.png" style="padding-top: 25px;" alt="" class="cardimg">
+					<div class="card-body">
+						
+						<ul class="list-unstyled text-left">
+							<li><p class="card-text">Diversidad de laptops para tus diferentes necesidades.</p>
+							<li><a href="#"><span class="text-success">Ver descuentos del 15%</span></a></li>
+						</ul>
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<a href="laptop.html"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+							</div>
+							<small class="text-muted">9 min</small>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-4">
+				<div class="card mb-4 ">
+					<img src="img/funkos.png" alt="" class="cardimg">
+					<div class="card-body">
+						<ul class="list-unstyled text-left">
+							<li><p class="card-text">Diversidad de juguetes funkos.</p>
+							<li><a href="#"><span class="text-success">Ver descuentos del 40%</span></a></li>
+						</ul>
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<a href="#"><button class="btn btn-sm btn-outline-secondary">Ir</button></a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</main>
+	</div>
+</div>
 
-	<footer class="container py-5 my-5 border-top">
-		<div class="row">
-			<div class="col-12 col-md-3 order-2 order-md-1">
-				<small class="d-block text-muted">© 2022-2023 ShopITA</small>
-			</div>
-			<div class="col-6 col-md-3 order-1 order-md-2">
-				<h5>Características</h5>
-				<ul class="list-unstyled text-small">
-					<li><a class="text-muted">Veloces</a></li>
-					<li><a class="text-muted">Rápidos</a></li>
-					<li><a class="text-muted">Confiables</a></li>
-					<li><a class="text-muted">Disponibles</a></li>
-				</ul>
-			</div>
-			<div class="col-6 col-md-3 order-1 order-md-2">
-				<h5>Contactanos</h5>
-				<ul class="list-unstyled text-small">
-					<li><a href="https://www.facebook.com/groups/1282981182245094/?ref=share"
-							class="text-muted">Facebook</a></li>
-					<li><a class="text-muted">shopitaa3@gmail.com</a></li>
-				</ul>
-			</div>
-			<!--<div class="col-6 col-md-3 order-1 order-md-2">
-				<h5>Acerca de</h5>
-				<ul class="list-unstyled text-small">
-					<li><a href="#" class="text-muted">Tenetur</a></li>
-					<li><a href="#" class="text-muted">Consequatur</a></li>
-					<li><a href="#" class="text-muted">Illum nostrum</a></li>
-					<li><a href="#" class="text-muted">Rem quos</a></li>
-				</ul>	
-			</div>
-			-->
+<!--Footer-->
+<footer class="container py-5 my-5 border-top">
+	<div class="row">
+		<div class="col-12 col-md-3 order-2 order-md-1">
+			<small class="d-block text-muted">© 2022-2023 ShopITA</small>
 		</div>
-	</footer>
-
+		<div class="col-6 col-md-3 order-1 order-md-2">
+			<h5>Características</h5>
+			<ul class="list-unstyled text-small">
+				<li><a class="text-muted">Veloces</a></li>
+				<li><a class="text-muted">Rápidos</a></li>
+				<li><a class="text-muted">Confiables</a></li>
+				<li><a class="text-muted">Disponibles</a></li>
+			</ul>
+		</div>
+		<div class="col-6 col-md-3 order-1 order-md-2">
+			<h5>Contactanos</h5>
+			<ul class="list-unstyled text-small">
+				<li><a href="https://www.facebook.com/groups/1282981182245094/?ref=share"
+						class="text-muted">Facebook</a></li>
+				<li><a class="text-muted">shopitaa3@gmail.com</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
