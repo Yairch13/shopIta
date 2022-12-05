@@ -26,7 +26,7 @@ function traerDatos() {
             for (let item of datos) {
                 //console.log(item.precio);
                 
-                res.innerHTML += "<tr><td>"+item.id+"</td><td>"+item.nombre+"</td><td>"+item.cantidad+"</td><td>"+item.descripción+"</td><td>"+item.precio+"</td><td><img src='"+item.imagen+"'></img></td><td>  <a href='#' class='btn btn-primary' onclick=''>Eliminar</a></td></tr>"
+                res.innerHTML += "<tr><td>"+item.id+"</td><td>"+item.nombre+"</td><td>"+item.cantidad+"</td><td>"+item.descripción+"</td><td>"+item.precio+"</td><td><img src='"+item.imagen+"'></img></td><td>  <a href='#' class='btn btn-primary' onclick=''>Eliminar</a><br><br> <a href='Modificar.html' class='btn btn-primary' onclick=''>Modificar</a></td></tr>"
            
               
             }
