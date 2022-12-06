@@ -45,7 +45,7 @@
         "cantidad": "14",
         "descripción": "El Motorola Moto G82 es un móvil 5G de gama media que destaca por su pantalla AMOLED a 120 Hz y por su gran batería con soporte para carga rápida",
         "precio": "$7200",
-        "imagen": "https://i.ibb.co/Hz6L0kY/Sony-WH-XB910-N.png"
+        "imagen": "https://i.ibb.co/d6RQ2Nv/moto-g82.jpg"
     },
     {
         "id": 7,
@@ -57,10 +57,10 @@
     },
     {
         "id": 8,
-        "nombre": "Samsung Galaxy a52",
+        "nombre": "Samsung Galax a52",
         "cantidad": "9",
         "descripción": "Es un telefono de gama media que rinde la bateria alrededor de 30 horas seguidas",
-        "precio": "$6500",
+        "precio": "$6400",
         "imagen": "https://i.ibb.co/4t41NbT/galaxy-a52.jpg"
     },
     {
