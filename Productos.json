@@ -20,7 +20,15 @@
         "cantidad": "20",
         "descripción": "Nuestros audífonos WH-1000XM5 ultracómodos redefinen el audio sin distracciones y la claridad en las llamadas. Dos procesadores controlan los varios micrófonos para ofrecer un sistema de noise cancelling sin precedentes, al tiempo que el optimizador de NC automático maximiza automáticamente el noise cancelling en función del entorno y de cómo uses los audífonos. La unidad de diafragma de 30 mm especialmente diseñada ofrece una calidad de sonido superior para todo tu entretenimiento.",
         "precio": "$8499",
-        "imagen": "https://i.ibb.co/Hz6L0kY/Sony-WH-XB910-N.png"
+        "imagen": "https://i.ibb.co/Hz6L0kY/Sony-WH-XB910-N.png",
+        "descripcióndos":"Negro",	
+        "usos":"1 Polímero de litio necesaria(s), incluida(s)",
+        "car":"Tecnología Noise Cancelling, Diafragma de 30 mm, Tecnología con Sensor de Ruido Múltiple"	,
+        "num":"Funda de carga inalámbrica",
+        "sop" :"Circumaurales",
+        "est":"1 Voltios",
+       "dim":"22.48 x 7.7 x 26.31 cm; 250.04 g"
+        
     },
     {
         "id": 3,
@@ -28,7 +36,14 @@
         "cantidad": "15",
         "descripción": "Resistencia a derrames IP32, capaz de soportar derrames accidentales para mantenerte cubierto. Cinco teclas macro E dedicadas y programables, personalizables a través del software UNLEASH RGB. Teclas multimedia dedicadas. Control total al tacto de los dedos. Iluminación RGB de 5 zonas y 5 efectos de iluminación preestablecidos personalizables a través del software UNLEASH RGB. El diseño estándar y los tallos de estilo Cherry MX te permiten utilizar cualquier tecla personalizada compatible con vástago Cherry MX.",
         "precio": "$735",
-        "imagen": "https://i.ibb.co/wdKRnWp/evga-z12.png"
+        "imagen": "https://i.ibb.co/wdKRnWp/evga-z12.png",
+        "descripcióndos":"Negro",	
+        "usos":"No",
+        "car":"Ordenador"	,
+        "num":"Retroiluminado, Resistente al agua",
+        "sop" :"MEMBRANA",
+        "est":"RGB",
+       "dim":"46.99 x 15.14 x 3.51 cm; 850 g"
     },
     {
         "id": 4,
@@ -36,7 +51,14 @@
         "cantidad": "10",
         "descripción": "Tablet Hyundai HyTab Pro 10LC1 4G, 4GB, 64GB, Android 10, 10.1, 5MP/8MP Black + Hyundai microSDHC 32GB",
         "precio": "$2999",
-        "imagen": "https://i.ibb.co/Hz6L0kY/Sony-WH-XB910-N.png"
+        "imagen": "https://i.ibb.co/kq1Rcbm/Hyundai-Hy-Tab-Pro-10-LC1.jpg",
+        "descripcióndos":"Negro",	
+        "usos":"Android 10",
+        "car":"5000 mAh"	,
+        "num":"128 GB",
+        "sop" :"Flash",
+        "est":"64 GB",
+       "dim":"1280 x 800 Pixeles"
     },
     {
         "id": 5,
@@ -76,7 +98,14 @@
         "cantidad": "13",
         "descripción": "Tableta para niños de 7 pulgadas, tableta Android para niños con 32 GB ROM.",
         "precio": "$1550",
-        "imagen": "https://i.ibb.co/hW53TVj/Tablet-Huawei-Mate-Pad-T-Kids.jpg"
+        "imagen": "https://i.ibb.co/hW53TVj/Tablet-Huawei-Mate-Pad-T-Kids.jpg",
+        "descripcióndos":"blanca",	
+        "usos":"Android 10",
+        "car":"3000 mAh"	,
+        "num":"128 GB",
+        "sop" :"Flash",
+        "est":"64 GB",
+       "dim":"1280 x 600 Pixeles"
     },
     {
         "id": 10,
@@ -84,6 +113,6 @@
         "cantidad": "50",
         "descripción": "Panel 2K+ de 11”, súper segura para tu vista. Pantalla Superfluida de 120 Hz y 4 altavoces de impacto directo",
         "precio": "$9299",
-        "imagen": "https://i.ibb.co/hW53TVj/Tablet-Huawei-Mate-Pad-T-Kids.jpg"
+        "imagen": "https://i.ibb.co/gd65tMT/Xiaomi-Tablet-Pad-5.jpg"
     }
 ]
