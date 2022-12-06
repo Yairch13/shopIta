@@ -5,7 +5,14 @@
         "cantidad": "24",
         "descripción": "Dentro del mundo gamer, hablar de Razer es sinónimo de buena reputación y trayectoria.  Esta compañía ofrece productos de muy alta calidad a sus usuarios. Su línea de teclados es reconocida por haber recibido distintos galardones y premios internacionales por su alto desempeño. Su retroiluminación da un toque diferente a tu equipo y resalta su composición cuando es utilizado en espacios poco iluminados.Este dispositivo tiene teclas antighosting. Esta cualidad es indispensable si requieres de un uso intensivo del periférico. Gracias a esto podrás evitar fallas al tocar varias teclas al mismo tiempo.",
         "precio": "$1299",
-        "imagen": "https://i.ibb.co/BKH8g57/cinusa.jpg"
+        "imagen": "https://i.ibb.co/BKH8g57/cinusa.jpg",
+        "descripcióndos":"Membrana",	
+        "usos":"Videojuegos",
+        "car":"Iluminación"	,
+        "num":"104",
+        "sop" :"RGB",
+        "est":"Cynosa Lite",
+       "dim":"45.7 x 17.4 x 3.3 centimeters"
     },
     {
         "id": 2,
