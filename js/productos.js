@@ -1,7 +1,7 @@
 
 console.log("correct");
 
-document.querySelector('#btnExtraer').addEventListener('click', traerDatos);
+document.querySelector('#btnExtraer').addEventListener('click', traerDatos());
 
 
 function traerDatos() {

@@ -1,6 +1,6 @@
-document.querySelector('#resp').addEventListener('click', cel());
+document.querySelector('#btnOrdenes').addEventListener('click', ord());
 
-function cel(){
+function ord(){
 
     const xhttp = new XMLHttpRequest();
 
@@ -13,13 +13,13 @@ function cel(){
             let datos = JSON.parse(this.responseText);
             console.log(datos)
 
-            let res = document.querySelector('#tit');
+            let res = document.querySelector('#ord');
             res.innerHTML = '';
 
 
             for (let item of datos) {
                 //console.log(item.precio);
-             if(item.id==1){ res.innerHTML += "<h1>"+item.nombre+"</h1><br><br><p>Precio:"+item.precio+"</p><br><p>Cantidad:"+item.cantidad+"</p><br><p>Descripción:"+item.descripción+"</p><br>"
+                if(item.id==1){ res.innerHTML += "<h1>"+item.nombre+"</h1><br><br><p>Precio:"+item.precio+"</p><br><p>Cantidad:"+item.cantidad+"</p><br><p>Descripción:"+item.descripción+"</p><br>"
                 
             }
                
