@@ -1,4 +1,4 @@
-document.querySelector('#lap').addEventListener('click', cel);
+document.querySelector('#tec').addEventListener('click', cel);
 
 function cel(){
 
@@ -13,14 +13,22 @@ function cel(){
             let datos = JSON.parse(this.responseText);
             console.log(datos)
 
-            let res = document.querySelector('#res');
+            let res = document.querySelector('#tr');
             res.innerHTML = '';
 
 
             for (let item of datos) {
                 //console.log(item.precio);
-             if(item.id==5){ res.innerHTML += "Id:"+item.id+"<br><br>Nombre:"+item.nombre+"<br><br>Cantidad:"+item.cantidad+"<br><br>Descripcion:"+item.descripción+"<br><br>Precio:"+item.precio+"<br>"
-                
+                if(item.id==5){ res.innerHTML += "<td>Id</td><td>"+item.id+"</td><tr><td>Nombre</td><td> "
+                +item.nombre+"</td><tr><td>Cantidad</td><td>"+item.cantidad+"</td><tr><td>Descripcion</td><td>"
+                +item.descripción+"</td><tr><td>Precio</td><td>"+item.precio+
+                "</td><tr><td>Color</td><td>"+item.descripcióndos+	
+                "</td><tr><td>Processador</td><td>"+item.usos+
+                "</td><tr><td>Disco duro SSD:</td><td>"+item.car+
+                "</td><tr><td>Disco duro HDD:</td><td>"+item.num+
+                "</td><tr><td>Memoria RAM</td><td>"+item.sop+
+                "</td><tr><td>País de Origen</td><td>"+item.est+
+               " </td><tr><td >Resolución de la pantalla</td><td >"+item.dim  
             }
                
                 

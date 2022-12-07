@@ -1,4 +1,4 @@
-document.querySelector('#moto').addEventListener('click', cel());
+document.querySelector('#tec').addEventListener('click', cel());
 
 function cel(){
 
@@ -13,14 +13,15 @@ function cel(){
             let datos = JSON.parse(this.responseText);
             console.log(datos)
 
-            let res = document.querySelector('#titu');
+            let res = document.querySelector('#tit');
             res.innerHTML = '';
 
 
             for (let item of datos) {
                 //console.log(item.precio);
-             if(item.id==6){ res.innerHTML += "<h1>"+item.nombre+"</h1><br><br><p>Precio:"+item.precio+"</p><br>"
-                
+                if(item.id==6){ res.innerHTML += "<h1>"+item.nombre+"</h1><br><br>Precio:"+item.precio+
+                "<br><br>Descripcion:"+item.descripción+
+                "<br><br>Cantidad:"+item.cantidad
             }
                
                 

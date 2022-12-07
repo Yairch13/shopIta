@@ -19,7 +19,7 @@ function cel(){
 
             for (let item of datos) {
                 //console.log(item.precio);
-                if(item.id==8){ res.innerHTML += "<h1>"+item.nombre+"</h1><br><br>Precio:"+item.precio+
+                if(item.id==10){ res.innerHTML += "<h1>"+item.nombre+"</h1><br><br>Precio:"+item.precio+
                 "<br><br>Descripcion:"+item.descripción+
                 "<br><br>Cantidad:"+item.cantidad
             }

@@ -1,4 +1,4 @@
-document.querySelector('#table').addEventListener('click', cel);
+document.querySelector('#tec').addEventListener('click', cel);
 
 function cel(){
 
@@ -19,8 +19,16 @@ function cel(){
 
             for (let item of datos) {
                 //console.log(item.precio);
-             if(item.id==10){ res.innerHTML += "Id:"+item.id+"<br><br>Nombre:"+item.nombre+"<br><br>Cantidad:"+item.cantidad+"<br><br>Descripcion:"+item.descripción+"<br><br>Precio:"+item.precio+"<br>"
-                
+                if(item.id==10){ res.innerHTML += "<td>Id</td><td>"+item.id+"</td><tr><td>Nombre</td><td> "
+                +item.nombre+"</td><tr><td>Cantidad</td><td>"+item.cantidad+"</td><tr><td>Descripcion</td><td>"
+                +item.descripción+"</td><tr><td>Precio</td><td>"+item.precio+
+                "</td><tr><td>Color</td><td>"+item.descripcióndos+	
+                "</td><tr><td>Sistema operativo instalado</td><td>"+item.usos+
+                "</td><tr><td>Capacidad de batería</td><td>"+item.car+
+                "</td><tr><td>Tamaño máximo de tarjeta de memoria</td><td>"+item.num+
+                "</td><tr><td>Unidad de almacenamiento</td><td>"+item.sop+
+                "</td><tr><td>Capacidad de almacenamiento interno</td><td>"+item.est+
+               " </td><tr><td >Resolución de la pantalla</td><td >"+item.dim  
             }
                
                 

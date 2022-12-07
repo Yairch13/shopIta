@@ -66,7 +66,14 @@
         "cantidad": "16",
         "descripción": " Sistema operativo: Windows 11 Home en modo S. Experimenta el Windows más seguro jamás construido con tiempos de arranque rápidos, mayor capacidad de respuesta y mayor protección contra phishing y malware.",
         "precio": "$6899",
-        "imagen": "https://i.ibb.co/tLVvqhb/Laptop-HP.jpg"
+        "imagen": "https://i.ibb.co/tLVvqhb/Laptop-HP.jpg",
+        "descripcióndos":"plata",	
+        "usos":"Intel Core i3 AMD Ryzen 5 5500U",
+        "car":"128 gb"	,
+        "num":" 1 TB",
+        "sop" :"8 GB",
+        "est":"ESTADOS UNIDOS",
+       "dim":"1600 x 900"
     },
     {
         "id": 6,
@@ -74,7 +81,14 @@
         "cantidad": "14",
         "descripción": "El Motorola Moto G82 es un móvil 5G de gama media que destaca por su pantalla AMOLED a 120 Hz y por su gran batería con soporte para carga rápida",
         "precio": "$7200",
-        "imagen": "https://i.ibb.co/d6RQ2Nv/moto-g82.jpg"
+        "imagen": "https://i.ibb.co/d6RQ2Nv/moto-g82.jpg",
+        "descripcióndos":"Negro",	
+        "usos":"Qualcomm Snapdragon 695 5G",
+        "car":"128 gb"	,
+        "num":"Resistente al agua.Con sensor de huella dactilar.Resistente al polvo.Tiene 4 cámaras traseras de 64Mpx/12Mpx/5Mpx/5Mpx.",
+        "sop" :"6 GB",
+        "est":"4500mAh.",
+       "dim":"6.6 pulgadas"
     },
     {
         "id": 7,
@@ -82,7 +96,14 @@
         "cantidad": "10",
         "descripción": "Laptop Gaming msi GF63 Thin Intel Core i5 Gen 10th 8GB RAM 256GB SSD",
         "precio": "$14899",
-        "imagen": "https://i.ibb.co/Byb04f0/MSI-Laptop.jpg"
+        "imagen": "https://i.ibb.co/Byb04f0/MSI-Laptop.jpg",
+        "descripcióndos":"Negro",	
+        "usos":"Intel Core i5-10300H 2.6 - 5.0 GHz",
+        "car":"256 gb"	,
+        "num":" 2 TB",
+        "sop" :"8 GB",
+        "est":"CHINA",
+       "dim":"1080 x 1920"
     },
     {
         "id": 8,
@@ -90,7 +111,14 @@
         "cantidad": "9",
         "descripción": "Es un telefono de gama media que rinde la bateria alrededor de 30 horas seguidas",
         "precio": "$6400",
-        "imagen": "https://i.ibb.co/4t41NbT/galaxy-a52.jpg"
+        "imagen": "https://i.ibb.co/4t41NbT/galaxy-a52.jpg",
+        "descripcióndos":"plata",	
+        "usos":"Snapdragon 720G Octa-Core de 2.3GHz con 6GB de RAM",
+        "car":"128 gb"	,
+        "num":"Resistente al agua.Con sensor de huella dactilar.Resistente al polvo.Tiene 4 cámaras traseras de 64Mpx/12Mpx/5Mpx/5Mpx.",
+        "sop" :"6 GB",
+        "est":"4500mAh.",
+       "dim":"Super AMOLED de 6.5"
     },
     {
         "id": 9,
@@ -113,6 +141,13 @@
         "cantidad": "50",
         "descripción": "Panel 2K+ de 11”, súper segura para tu vista. Pantalla Superfluida de 120 Hz y 4 altavoces de impacto directo",
         "precio": "$9299",
-        "imagen": "https://i.ibb.co/gd65tMT/Xiaomi-Tablet-Pad-5.jpg"
+        "imagen": "https://i.ibb.co/gd65tMT/Xiaomi-Tablet-Pad-5.jpg",
+        "descripcióndos":"Negra",	
+        "usos":"Android 9",
+        "car":"4000 mAh"	,
+        "num":"128 GB",
+        "sop" :"Flash",
+        "est":"64 GB",
+       "dim":"1480 x 700 Pixeles"
     }
 ]
