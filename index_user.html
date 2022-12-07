@@ -12,10 +12,30 @@
 			margin-left: 20px;
 			text-align: center;
 			padding-bottom: 20px;
-			width: 300px;
+			width: 320px;
 			height: 400px;
 			
 		}
+		
+		#orilla{
+			font-size: 15px;
+			float: right;
+			text-align: center;
+			width: 100px;
+			margin-right: 60px;
+			
+			
+			
+		}
+		#barrade{
+			font-size: 15px;
+			float: right;
+			text-align: center;	
+			background-color: black;
+			
+		}
+		
+		
 	</style>
 	<title>ShopITA</title>
 </head>
@@ -84,8 +104,25 @@
 <!--inicio catalago-->
 <div class="py-5 bg-light border-top">
 	<div class="container">
+		<div id="orilla">
+			<div class="btn-group">
+				<button type="button" style="background-color: black; color:white" class="btn btn-default dropdown-toggle"
+						data-toggle="dropdown">
+				  Destacados <span class="caret"></span>
+				</button>
+			  
+				<ul class="dropdown-menu" role="menu" id="barrade">
+				  <li><a href="mayor.html">De mayor a menor</a></li>
+				  <li><a href="menor.html">De menor a mayor</a></li>
+				  
+				  
+				</ul>
+			  </div>
+
+		</div>
+		<br><br><br>
 		<div class="row">
-			<div class="col-12 col-sm-6 col-md-4">
+			<div class="col-12 col-sm-6 col-md-4" id="cel">
 				<div class="card mb-4 ">
 					<div id="diseño">
 					<div id="tit">
