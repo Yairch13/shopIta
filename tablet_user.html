@@ -28,7 +28,15 @@
       margin-top: 20px;
       ;
     }
-
+    #diseño{
+			font-size: 15px;
+			margin-left: 20px;
+			text-align: center;
+			padding-bottom: 20px;
+			width: 300px;
+			height: 400px;
+			
+		}
     #img {
       width: 300px;
       height: 250px;
@@ -98,91 +106,55 @@
       </div>
     </div>
   </header>
-  <div class="container">
-    <br><br>
-    <h1>Catalago Tablets</h1>
-    <br><br>
-
+  <div class="py-5 bg-light border-top">
     <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="hyundai.html"><img src="https://i.ibb.co/kq1Rcbm/Hyundai-Hy-Tab-Pro-10-LC1.jpg" id="imagenes"></a>
-
-            <div class="card-body">
-              <h5 class="card-title">Hyundai HyTab Pro 10LC1</h5>
-              <p class="card-text">precio: $2999</p>
-
-              <div class="d-flex justify-content-between align-items-center"></div>
-             
-
-
+      <h1>Catalago Tablet</h1>
+      <div class="row">
+        
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card mb-4 ">
+            <div id="diseño">
+            <div id="hua">
+  
             </div>
+            <br>
+            <a href="xiaomi.html"><button
+            class="btn btn-sm btn-outline-secondary" id="hu">Ir</button></a>
           </div>
-
+          </div>
         </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-           <a href="huawei.html"><img src="https://i.ibb.co/hW53TVj/Tablet-Huawei-Mate-Pad-T-Kids.jpg" id="imagenes"></a> 
-
-            <div class="card-body">
-              <h5 class="card-title">Tablet Huawei MatePad T Kids</h5>
-              <p class="card-text">precio :1555</p>
-
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="col-lg-12">
-
-                 
-                
-
-                </div>
-
-
-
-              </div>
-
+  
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card mb-4 ">
+            <div id="diseño">
+            <div id="hy">
+  
             </div>
-           
+            <br>
+            <a href="hyundai.html"><button
+            class="btn btn-sm btn-outline-secondary" id="hyu">Ir</button></a>
+          </div>
           </div>
         </div>
         
-        <div class="col">
-          <div class="card shadow-sm">
-           <a href="xiaomi.html"><img src="https://i.ibb.co/gd65tMT/Xiaomi-Tablet-Pad-5.jpg" id="imagenes"></a> 
-
-            <div class="card-body">
-              <h5 class="card-title">Xiaomi Tablet Pad 5</h5>
-              <p class="card-text">precio :9299</p>
-
-
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="col-lg-12">
-
-                 
-
-                </div>
-
-
-
-              </div>
-
+       
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card mb-4 ">
+            <div id="diseño">
+            <div id="ultimo">
+  
             </div>
-           
+            <br>
+            <a href="xiaomi.html"><button
+            class="btn btn-sm btn-outline-secondary" id="yair">Ir</button></a>
+          </div>
           </div>
         </div>
-     
-
+        
       </div>
     </div>
+  
   </div>
-
-
-  <br>
-
-
   <!--Modal para CRUD-->
 
   </div>
@@ -209,10 +181,12 @@
       </div>
     </div>
   </footer>
-  <script src="js/tablet.js"></script>
-
-  <script src="js//tabletdos.js"></script>
-  <script src="js/tablettres.js"></script>
+  
+	<script src="vista/huawei.js"></script>
+	<script src="vista/hyundai.js"></script>
+	
+	<script src="vista/xiaomi.js"></script>
+	
   <script src="Productos.json"></script>
 
 </body>

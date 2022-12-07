@@ -29,6 +29,15 @@
       margin-right: 20%;
 
     }
+    #diseño{
+			font-size: 15px;
+			margin-left: 20px;
+			text-align: center;
+			padding-bottom: 20px;
+			width: 300px;
+			height: 400px;
+			
+		}
 
     #tablaPersonas {
 
@@ -93,48 +102,46 @@
       </div>
     </div>
   </header>
-  <div class="container">
-    <br><br>
-    <h1>Catalago celulares</h1>
-    <br><br>
+  <!--inicio catalago-->
+<div class="py-5 bg-light border-top">
+  <h1>Catalago celulares</h1>
+  <br>
+  <br>
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-12 col-sm-6 col-md-4">
+				<div class="card mb-4 ">
+					<div id="diseño">
+					<div id="mot">
 
-    <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+					</div>
+					<br>
+					<a href="motorola.html"><button
+					class="btn btn-sm btn-outline-secondary" id="m">Ir</button></a>
+				</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4">
+				<div class="card mb-4 ">
+					<div id="diseño">
+					<div id="sams">
+						
+					</div>
+					<br>
+					<a href="samsumg.html"><button
+					class="btn btn-sm btn-outline-secondary" id="sam">Ir</button></a>
+				</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+	</div>
 
-
-        <div class="col">
-          <div class="card shadow-sm">
-           <a href="samsumg.html"><img src="https://i.ibb.co/4t41NbT/galaxy-a52.jpg" id="imagenes"></a> 
-
-            <div class="card-body">
-              <h5 class="card-title">Samsung Galaxy a52</h5>
-              <p class="card-text">precio: $6500</p>
-              
-              
-
-
-
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-           <a href="motorola.html"><img src="https://i.ibb.co/d6RQ2Nv/moto-g82.jpg" id="imagenes"></a> 
-
-            <div class="card-body">
-              <h5 class="card-title">Moto G82</h5>
-              <p class="card-text">precio :7200</p>
-
-          
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
+</div>
+  
 
 
   <br>
@@ -168,8 +175,8 @@
     </div>
   </footer>
 
-  <script src="js/motorola.js"></script>
-  <script src="js/samsung.js"></script>
+  <script src="vista/samsung.js"></script>
+	<script src="vista/motorola.js"></script>
   <script src="Productos.json"></script>
 
 </body>
